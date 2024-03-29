@@ -107,7 +107,6 @@
     opacity: 1;
   }
 }
-
 .fadeInDelayTwo{
   animation-name: fadeInDelayTwo;
   animation-duration: 1s;
