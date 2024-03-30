@@ -1,3 +1,5 @@
+"use client";
+
 import AceEditor from "react-ace";
 
 import "ace-builds/src-noconflict/mode-javascript";
@@ -8,17 +10,14 @@ export default function CodeEditor({ snippet }) {
   const { t } = useTranslation();
 
   return (
-    <article className="w-[80%] flex flex-col justify-center items-center text-justify font-ojujuLight">
-      <strong>
-        <h3 className="text-blue-chill-800">{t(snippet.title)}</h3>
-      </strong>
-      <div className="flex flex-row gap-2 justify-center">
+    <article className="w-[80%] h-[100%] flex flex-col justify-center items-center text-justify font-ojujuLight">
+      <div className="flex flex-col md:flex-row gap-2 justify-center">
         <strong>
           <h5>{t("Main.Snippets.why")}</h5>
         </strong>
         <p className="font-ojujuLight text-justify">{t(snippet.description)}</p>
       </div>
-      <div className="flex flex-row gap-2 justify-center">
+      <div className="flex flex-col md:flex-row gap-2 justify-center">
         <strong>
           <h5>{t("Main.Snippets.platform")}</h5>
         </strong>
@@ -28,13 +27,13 @@ export default function CodeEditor({ snippet }) {
         </strong>
         <p className="font-ojujuLight text-justify">{t(snippet.type)}</p>
       </div>
-      <div className="flex flex-row gap-2 justify-center">
+      <div className="flex flex-col md:flex-row gap-2 justify-center">
         <strong>
           <h5>{t("Main.Snippets.solution")}</h5>
         </strong>
         <p className="font-ojujuLight text-justify">{t(snippet.solution)}</p>
       </div>
-      <div className="flex flex-row gap-2 justify-center">
+      <div className="flex flex-col md:flex-row gap-2 justify-center">
         <strong>
           <h5>{t("Main.Snippets.complexity")}</h5>
         </strong>

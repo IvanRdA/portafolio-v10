@@ -31,7 +31,7 @@ export default function ProjectDetailed(props) {
         <h3 className="text-lg">{project.type}</h3>
 
         <h3 className="text-lg">{t(project.state)}</h3>
-        <section className="flex flex-row justify-start items-center p-2 h-[100%] w-[100%] gap-2">
+        <section className="flex flex-col md:flex-row justify-start items-center p-2 h-[100%] w-[100%] gap-2">
           <div className="flex flex-col justify-start items-center w-[50%] h-[100%]">
             <i>
               <strong>
@@ -96,19 +96,23 @@ export default function ProjectDetailed(props) {
             })}
           </span>
 
-          <p>
-            {t("Contact.RepositoryTitle")}:{" "}
-            <a href={project.repository} target="_blank" nofollow noreferer>
-              {project.repository}
-            </a>
-          </p>
+          {project.repository !== "" && (
+            <p>
+              {t("Contact.RepositoryTitle")}:{" "}
+              <a href={project.repository} target="_blank" nofollow noreferer>
+                {project.repository}
+              </a>
+            </p>
+          )}
 
-          <p>
-            URL:
-            <a href={project.url} target="_blank" nofollow noreferer>
-              {project.url}
-            </a>
-          </p>
+          {project.url !== "" && (
+            <p>
+              URL:
+              <a href={project.url} target="_blank" nofollow noreferer>
+                {project.url}
+              </a>
+            </p>
+          )}
         </div>
       </div>
     </>

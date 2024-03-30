@@ -15,8 +15,8 @@ export default function AboutCardsSection() {
           <span className="fadeInDelayTwo">.</span>
         </h3>
       </strong>
-      <article className="flex flex-col w-[100%] h-[50%] justify-center items-center mt-2 font-ojujuLight text-xl">
-        <div className="grid grid-flow-row grid-cols-4 gap-4 justify-center items-center h-[100%] w-[100%]">
+      <article className="flex flex-col w-[100%] h-[100%] justify-center items-center mt-2 font-ojujuLight text-xl p-2">
+        <div className="grid grid-flow-row grid-cols-2 md:grid-cols-4 gap-4 justify-center items-center h-[100%] w-[100%]">
           {Object.keys(STATS_CARD_DICTIONARY).map((dictKey, index) => {
             return <StatsCard key={index} dictKey={dictKey} />;
           })}

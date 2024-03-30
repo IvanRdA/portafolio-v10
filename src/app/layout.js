@@ -9,7 +9,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`h-screen w-screen bg-gradient-to-br from-blue-chill-400 to-blue-chill-600 text-blue-chill-50 cursor-default`}
+        className={`bg-gradient-to-br from-blue-chill-400 to-blue-chill-600 text-blue-chill-50 cursor-default overflow-x-auto h-[100%] md:h-[100vh] w-[100%] md:w-[100vw]`}
       >
         {children}
       </body>

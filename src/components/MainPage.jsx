@@ -1,6 +1,5 @@
 "use client";
 
-import { useTranslation } from "react-i18next";
 import { useState } from "react";
 import TechsPreview from "./TechsPreview";
 import MainButtons from "./MainButtons";
@@ -13,9 +12,9 @@ export default function MainPage() {
   return (
     <>
       <section
-        className={`w-[80%] flex flex-col h-[90vh] justify-center items-center p-2 fadeIn`}
+        className={`w-[100%] md:w-[80%] flex flex-col h-[100%] md:h-[90vh] justify-start items-center p-2 fadeIn`}
       >
-        <article className="w-[100%] h-[100%] flex flex-col justify-center items-center">
+        <article className="w-[100%] h-[100%] flex flex-col justify-start items-center">
           {renderEle === 0 && <PresentationSection />}
 
           <section className="flex flex-col justify-start items-center p-2 m-1 h-[100%] w-[100%]">

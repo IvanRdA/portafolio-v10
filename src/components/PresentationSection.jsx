@@ -10,21 +10,21 @@ export default function PresentationSection() {
 
   return (
     <>
-      <strong>
-        <h1
-          className={`font-ojuju text-3xl text-center mt-2 ${blinking}`}
-          onMouseEnter={(e) => {
-            setBlinking("blinking");
-          }}
-          onMouseOut={(e) => {
-            setBlinking("");
-          }}
-        >
-          IVÁN RODRÍGUEZ DE ANTONIO - {t("Main.Job")}
-        </h1>
-      </strong>
-      <section className="flex flex-row justify-center items-center p-2 m-1 h-[50%] w-[100%]">
-        <article className="flex flex-col justify-center items-center w-[50%] mt-4">
+      <section className="flex flex-col md:flex-row justify-center items-center p-2 m-1 h-[50%] w-[100%]">
+        <article className="flex flex-col justify-center items-center w-[50%] mt-4 h-[100%]">
+          <strong>
+            <h1
+              className={`font-ojuju text-3xl text-center mt-2 ${blinking}`}
+              onMouseEnter={(e) => {
+                setBlinking("blinking");
+              }}
+              onMouseOut={(e) => {
+                setBlinking("");
+              }}
+            >
+              IVÁN RODRÍGUEZ DE ANTONIO - {t("Main.Job")}
+            </h1>
+          </strong>
           <Image
             src="/picture.jpg"
             height={320}
@@ -34,7 +34,7 @@ export default function PresentationSection() {
             className={`rounded-full m-6 pixelGrow`}
           />
           <a
-            href="/resume.pdf"
+            href="/resume.png"
             target="_blank"
             rel="noopener noreferrer"
             download="Ivan Rodriguez de Antonio.pdf"
@@ -46,7 +46,7 @@ export default function PresentationSection() {
             </button>
           </a>
         </article>
-        <article className="flex flex-col justify-center items-center w-[50%] text-justify p-2 font-ojujuLight text-lg mt-4">
+        <article className="flex flex-col justify-center items-center w-[100%] md:w-[50%] text-justify p-2 font-ojujuLight text-lg mt-4">
           <p className="p-2">{t("Main.p1")}</p>
           <p className="p-2">{t("Main.p2")}</p>
           <p className="p-2">{t("Main.p3")}</p>

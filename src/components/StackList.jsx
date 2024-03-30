@@ -31,7 +31,7 @@ export default function StackList(props) {
             return (
               <button
                 key={stack[letter].main}
-                className="w-[15%] text-center border border-blue-chill-100/15 rounded-md hover:scale-105 hover:text-blue-chill-50"
+                className="p-2 text-center border border-blue-chill-100/15 rounded-md hover:scale-105 hover:text-blue-chill-50"
                 onClick={handleLetterEvent}
                 data-letter={stack[letter].main}
               >

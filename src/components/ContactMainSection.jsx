@@ -5,7 +5,7 @@ import { useTranslation } from "react-i18next";
 export default function ContactMainSection() {
   const { t } = useTranslation();
   return (
-    <section className="w-[90%] h-[90%] flex flex-col justify-center items-center font-ojuju text-lg shadow-xl shadow-blue-chill-800">
+    <section className="w-[100%] h-[100%] flex flex-col justify-center items-center font-ojuju text-lg shadow-xl shadow-blue-chill-800 p-8">
       <Image
         src="/picture.jpg"
         height={250}
@@ -37,7 +37,10 @@ export default function ContactMainSection() {
           title={t("Contact.Linkedin")}
           className={`rounded-full m-6 shadow-sm shadow-blue-chill-800`}
         />
-        <a href="linkedin" target="_blank">
+        <a
+          href="https://www.linkedin.com/in/iván-rodríguez-de-antonio-b26663119/"
+          target="_blank"
+        >
           LinkedIn
         </a>
       </span>
@@ -51,7 +54,7 @@ export default function ContactMainSection() {
           title={t("Contact.Github")}
           className={`rounded-full m-6 shadow-sm shadow-blue-chill-800`}
         />
-        <a href="github" target="_blank">
+        <a href="https://github.com/IvanRdA" target="_blank">
           GitHub
         </a>
       </span>

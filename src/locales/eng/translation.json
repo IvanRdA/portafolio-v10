@@ -274,7 +274,63 @@
             "0": {
                 "title": "Business Data Manager",
                 "problem": "A medium to big company has to handle all the data of employees, their schedules, holidays and extra time recordings. In the future they will need to scale the platform to handle other kind of data and processes.",
-                "solution": "A web platform made as SPA with React in the frontend and Express and MongoDB in the backend for the API creation and encapsulation. The app will be modular for satisfying the needings of future scale needings and totally responsive. Also will include a section of graphics for data visualization."
+                "solution": "A web platform made as SPA with React in the frontend and Express and MongoDB in the backend for the API creation and encapsulation. The app will be modular for satisfying the needings of future scale needings and totally responsive. Also will include a section of graphics for data visualization.",
+                "codes": {
+                    "0": {
+                        "explanation": "A mongoose database model for employee handleling.",
+                        "name": "Employee model for MongoDB"
+                    },
+                    "1": {
+                        "explanation": "Login route of the platform. Snippet includes the controller and the route files. Some extra functions was hidden for security reasons.",
+                        "name": "Login route and Login controller"
+                    },
+                    "2": {
+                        "explanation": "The database instance connection with an asset that retries connections for 5 times in case of an error.",
+                        "name": "Database connection with retry asset"
+                    },
+                    "3": {
+                        "explanation": "React component for handleling the employees holidays status per year.",
+                        "name": "Holidays handler component"
+                    }
+                }
+            },
+            "1": {
+                "title": "Galaxy generation procedural process",
+                "problem": "In order to create the map of a game, we're asked to write a procedural process that generates a galaxy with all the data of his entities given a list of constraints for each type of instance.",
+                "solution": "Created dictionaries with all the constraints for each item, then instanced the classes and accomodate the methods and properties to match with the dictionaries. Once I had all setted up, started implementing the functions for the procedural processes and storing they while creating into a database.",
+                "codes": {
+                    "0": {
+                        "explanation": "The Star class definition. This class will encapsulate all the instances of the created stars.",
+                        "name": "Star class definition"
+                    },
+                    "1": {
+                        "explanation": "This is the route that handles the galaxy creation on the server side. As can see, at the end just need the name of the galaxy and the number of star systems that wants to be created.",
+                        "name": "Galaxy store API route"
+                    },
+                    "2": {
+                        "explanation": "The galaxy scene on the client side with ThreeJS for 3D inmersion.",
+                        "name": "Galaxy scene component"
+                    }
+                }
+            },
+            "2": {
+                "title": "Web portfolio v1.0",
+                "problem": "Being a self-taught developer means that have to show what I've learn more than people with official studies.",
+                "solution": "Split ways with usual portfolio projects and started two big ideas, when I've reached some key points that, to my point of view, demonstrates that I can work as a developer profesionally, created a web portfolio where can show what I did.",
+                "codes": {
+                    "0": {
+                        "explanation": "About section component made in React and NextJS. The component iterates over the hobbies dictionary and show dynamic card with each one via another components and his props.",
+                        "name": "About section main component"
+                    },
+                    "1": {
+                        "explanation": "Navbar component that handles the flag and language changes and the rendered component on the page.",
+                        "name": "Navbar component"
+                    },
+                    "2": {
+                        "explanation": "Contains StackList and SingleTech components, that shows the list of technologies of the stack or the technology description when the button is clicked.",
+                        "name": "Stacks components"
+                    }
+                }
             }
         },
         "States": {

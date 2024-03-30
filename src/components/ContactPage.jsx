@@ -13,9 +13,9 @@ export default function ContactPage() {
         </h1>
       </strong>
       <section
-        className={`w-[80%] flex flex-col h-[90vh] justify-center items-center p-2 text-blue-chill-50 pixelGrow`}
+        className={`w-[100%] flex flex-col h-[100%] md:h-[90vh] justify-center items-center p-2 text-blue-chill-50 pixelGrow`}
       >
-        <article className="w-[100%] h-[90%] flex flex-col justify-center items-center">
+        <article className="w-[100%] h-[100%] flex flex-col justify-center items-center">
           <ContactMainSection />
         </article>
       </section>

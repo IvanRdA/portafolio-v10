@@ -1193,8 +1193,8 @@ export const projectsDictionary = {
       "/projects/cv/main.jpg",
       "/projects/cv/about.jpg",
     ],
-    repository: "",
-    url: "",
+    repository: "https://github.com/IvanRdA/portafolio-v1.0",
+    url: "https://portafolio-v1-0-sigma.vercel.app",
     type: "Frontend",
     code: {
       0: {

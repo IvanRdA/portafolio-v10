@@ -21,7 +21,7 @@ export default function MainButtons(props) {
           onClick={(e) => {
             handler(1);
           }}
-          className={`w-[30%] h-[50%] bg-blue-chill-100 text-blue-chill-600 p-2 hover:bg-blue-chill-800 hover:text-blue-chill-50 rounded-br-lg rounded-tl-lg font-ojuju hover:scale-105`}
+          className={` bg-blue-chill-100 text-blue-chill-600 p-2 hover:bg-blue-chill-800 hover:text-blue-chill-50 rounded-br-lg rounded-tl-lg font-ojuju hover:scale-105`}
         >
           {t("Main.TechButton")}
         </button>
@@ -29,7 +29,7 @@ export default function MainButtons(props) {
           onClick={(e) => {
             handler(2);
           }}
-          className={`w-[30%] h-[50%] bg-blue-chill-100 text-blue-chill-600 p-2 hover:bg-blue-chill-800 hover:text-blue-chill-50 rounded-br-lg rounded-tl-lg font-ojuju hover:scale-105`}
+          className={`bg-blue-chill-100 text-blue-chill-600 p-2 hover:bg-blue-chill-800 hover:text-blue-chill-50 rounded-br-lg rounded-tl-lg font-ojuju hover:scale-105`}
         >
           {t("Main.SnippetsButton")}
         </button>

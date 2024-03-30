@@ -15,10 +15,10 @@ export default function Home() {
   return (
     <>
       <main
-        className={`flex h-[100%] w-[100%] flex-col items-center justify-center`}
+        className={`flex h-[100%] w-[100%] flex-col items-center justify-start`}
       >
         <header
-          className={`flex flex-col justify-center items-center w-[100%] h-[10vh]`}
+          className={`flex flex-col justify-start items-center w-[100%] h-[100%] md:h-[10vh] mt-4`}
         >
           <Navbar handler={setContentComponent} />
         </header>

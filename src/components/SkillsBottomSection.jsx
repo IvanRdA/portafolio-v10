@@ -42,8 +42,8 @@ export default function SkillsBottomSection() {
   return (
     <>
       <section className="flex flex-col justify-start items-center h-[100%] w-[100%] overflow-x-auto">
-        <article className="grid grid-flow-row grid-cols-4 gap-2 auto-cols-auto justify-center justify-items-center content-start w-[100%] text-blue-chill-50">
-          <div className="flex flex-col w-[50%] h-[100%] justify-start items-center">
+        <article className="grid grid-flow-row grid-cols-2 md:grid-cols-4 gap-2 auto-cols-auto justify-center justify-items-center content-start w-[100%] text-blue-chill-50">
+          <div className="flex flex-col w-[50%] h-[100%] justify-start items-center text-center">
             <strong>
               <h3 className="font-ojuju text-xl text-blue-chill-800">
                 {t("Skills.FrontendTitle")}

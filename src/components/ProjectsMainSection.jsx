@@ -118,7 +118,7 @@ export default function ProjectsMainSection(props) {
               {t("Projects.NoItemsFound")}
             </h3>
           ) : (
-            <div className="grid grid-flow-row grid-cols-3 gap-2 auto-cols-max justify-start justify-items-start place-items-center h-[90%] w-[100%]">
+            <div className="grid grid-flow-row grid-cols-1 md:grid-cols-3 gap-2 auto-cols-max justify-start justify-items-start place-items-center h-[90%] w-[100%]">
               {currentProjects.map((project, idx) => {
                 return (
                   <div
@@ -154,13 +154,17 @@ export default function ProjectsMainSection(props) {
                     <button onClick={(e) => handler(idx)}></button>
                     <h5>{project.type}</h5>
                     <p>{t(project.problem)}</p>
-                    <p>
-                      {t("Contact.RepositoryTitle")}:{" "}
-                      <a>{project.repository}</a>
-                    </p>
-                    <p>
-                      URL: <a>{project.url}</a>
-                    </p>
+                    {project.repository !== "" && (
+                      <p>
+                        {t("Contact.RepositoryTitle")}:{" "}
+                        <a>{project.repository}</a>
+                      </p>
+                    )}
+                    {project.url !== "" && (
+                      <p>
+                        URL: <a>{project.url}</a>
+                      </p>
+                    )}
                   </div>
                 );
               })}

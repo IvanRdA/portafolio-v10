@@ -39,12 +39,12 @@ export default function Carrousel(props) {
   return (
     <>
       <div className="w-[100%] h-[100%] flex flex-col justify-center items-center">
-        <section className="flex flex-row justify-center items-center p-2 m-1 h-[100%] w-[100%]">
-          <div className="w-[10%] h-[100%] flex flex-col justify-center items-center">
+        <section className="flex flex-col md:flex-row justify-center items-center p-2 m-1 h-[100%] w-[100%]">
+          <div className="w-[50%] md:w-[10%] h-[100%] flex flex-col justify-center items-center">
             <button onClick={handlePrev}>
               <Image
                 src="/icons/prev.svg"
-                width={60}
+                width={40}
                 height={40}
                 alt={t("Main.Prev")}
                 title={t("Main.Prev")}
@@ -53,7 +53,7 @@ export default function Carrousel(props) {
             </button>
           </div>
 
-          <article className="w-[80%] h-[100%] flex flex-col justify-center items-center font-ojujuLight">
+          <article className="w-[100%] md:w-[80%] h-[100%] flex flex-col justify-center items-center font-ojujuLight">
             <a href={previewElement} target="_blank">
               <Image
                 src={previewElement}
@@ -66,11 +66,11 @@ export default function Carrousel(props) {
             </a>
           </article>
 
-          <div className="w-[10%] h-[100%] flex flex-col justify-center items-center">
+          <div className="w-[50%] md:w-[10%] h-[100%] flex flex-col justify-center items-center">
             <button onClick={handleNext}>
               <Image
                 src="/icons/next.svg"
-                width={60}
+                width={40}
                 height={40}
                 alt={t("Main.Next")}
                 title={t("Main.Next")}

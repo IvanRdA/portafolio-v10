@@ -274,7 +274,63 @@
             "0": {
                 "title": "Manejador de lógica de negocio",
                 "problem": "Una mediana a gran empresa necesita manejar toda la información de sus empleados, sus turnos, vacaciones y registros de horas extra. En un futuro necesitarán escalar la plataforma para manejar otro tipo de datos y procesos de negocio.",
-                "solution": "Una plataforma web en formato SPA con React en el lado cliente y Express y MongoDB en el servidor y para la creación y encapsulación de la API. La app será modular para cubrir las necesidades de escalarla a futuro y será totalmente responsiva. También incluirá una sección con gráficos para la visualización de la información."
+                "solution": "Una plataforma web en formato SPA con React en el lado cliente y Express y MongoDB en el servidor y para la creación y encapsulación de la API. La app será modular para cubrir las necesidades de escalarla a futuro y será totalmente responsiva. También incluirá una sección con gráficos para la visualización de la información.",
+                "codes": {
+                    "0": {
+                        "explanation": "Modelo de mongoose para gestión de empleados en base de datos.",
+                        "name": "Modelo Empleados para MongoDB"
+                    },
+                    "1": {
+                        "explanation": "Ruta de inicio de sesión de la plataforma. El retal incluye el archivo de ruta y el controlador.",
+                        "name": "Ruta y controlador de inicio de sesión"
+                    },
+                    "2": {
+                        "explanation": "Función de conexión a base de datos con soporte de función de reintento.",
+                        "name": "Conexión a base de datos con soporte de reintento"
+                    },
+                    "3": {
+                        "explanation": "Componente de React para manejar las vacaciones de los empleados, por año.",
+                        "name": "Componente gestor de vacaciones"
+                    }
+                }
+            },
+            "1": {
+                "title": "Creación de galaxias procedural",
+                "problem": "Para poder crear el mapa de un juego, nos dicen que tenemos que crear una función procedural que genere una galaxia con toda la información de sus entidades que cumplan una lista de requisitos que recibimos.",
+                "solution": "Crear diccionarios para todos los requisitos para cada tipo de objeto, después, definimos e instanciamos las clases acomodando sus métodos y propiedas para que sigan los diccionarios de requisitos. Una vez tenemos la implementación de las clases, creamos las funciones de cada procedural y registrándolos en la base de datos a medida que el algoritmo se ejecuta.",
+                "codes": {
+                    "0": {
+                        "explanation": "La definición de la clase estrella. Esta clase encapsulará todas las instancias de las estrellas que se generen.",
+                        "name": "Definición de clase Estrella"
+                    },
+                    "1": {
+                        "explanation": "Esta es la ruta que maneja la creación de la galaxia en si. Como puede verse, basta con indicar el nombre de la galaxia y el número de sistemas estelares que desea generar.",
+                        "name": "Galaxy store API route"
+                    },
+                    "2": {
+                        "explanation": "La escena de la galaxia en el lado del cliente, implementada con ThreeJS para una inmersión 3D.",
+                        "name": "Componente de escena de Galaxia"
+                    }
+                }
+            },
+            "2": {
+                "title": "Portafolio web v1.0",
+                "problem": "Ser un desarrollador autodidacta implica tener que enseñar lo que he aprendido más que gente que tenga estudios oficiales.",
+                "solution": "Separarme del camino habitual en cuanto a proyectos de portafolio, empezando dos grandes ideas. Cuando he alcanzado varios puntos clave en los proyectos que, bajo mi punta de vista, demuestran que puedo trabajar de forma profesional como desarrollador, he creado un portafolio web.",
+                "codes": {
+                    "0": {
+                        "explanation": "Componente de la sección sobre mi creado con React en NextJS. El componente itera sobre el diccionario de hobbies y enseña de forma dinámica cada uno vía otro componente y sus props.",
+                        "name": "Componente principal sección Sobre mi"
+                    },
+                    "1": {
+                        "explanation": "Componente de navegación que maneja el estado de la bandera y el lenguaje, así como el componente que renderiza la página.",
+                        "name": "Componente de navegación"
+                    },
+                    "2": {
+                        "explanation": "Contiene los componentes StackList y SingleTech, que muestran la lista de tecnologías del stack o la descripción de la tecnología donde se hace click.",
+                        "name": "Componente Stack"
+                    }
+                }
             }
         },
         "States": {
