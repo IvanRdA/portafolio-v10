@@ -1,36 +1,14 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Portfolio web version 1.0 - versión de showcase
 
-## Getting Started
+## Descripción general:
 
-First, run the development server:
+Este proyecto es la primera versión de desarrollo de mi portafolio web como desarrollador fullstack. El proyecto es simple y consta solo de frontend (sin backend ni base de datos) ya que aprovecho el concepto de "mocking" de datos para el manejo y trabajo con la información dinámica que genera el contenido del portafolio.
+A pesar de ser un proyecto muy pequeño y solo para "showcasing" he optado por instanciarlo mediante NextJS por si en un futuro decido escalarlo y añadir componentes de infraestructura extras.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Las tecnologías elegidas han sido React mediante NextJS y TailwindCSS para los estilos. También hay que tener en cuenta la dependencia de i18n para convertir el sitio en multilenguaje.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+**LA OPTIMIZACIÓN RESPONSIVE NO ESTÁ REALIZADA AL 100%.**
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Instalación y configuración:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Para ver el proyecto basta con visitar la url del proyecto: [URL del portafolio](https://www.portafolio-v1-0-sigma.vercel.app) ya que está el deployment a producción realizado.
