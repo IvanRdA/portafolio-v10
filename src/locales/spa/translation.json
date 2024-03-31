@@ -15,8 +15,8 @@
         "Picture": "Foto de Iván Rodríguez",
         "Download": "Descargar CV",
         "p1": "Soy un programador autodidacta con +5 años de experiencia como gerente de tienda al que le encanta la resolución de problemas.",
-        "p2": "Trabajando como gerente he aprendido a trabajar con datos y la importancia que tiene para los negocios poder tener control sobre estos datos.",
-        "p3": "Combinando eso con mi pasion por las nuevas tecnologías, la programación y resolución de problemas y mi bagaje, en 2020 elegí empezar a estudiar sobre el entorno de JavaScript por mi cuenta.",
+        "p2": "Trabajando como gerente he aprendido a manejar datos y la importancia que tiene para los negocios poder tener control sobre estos datos.",
+        "p3": "Combinando eso con mi pasión por las nuevas tecnologías, la programación y resolución de problemas y mi bagaje, en 2020 elegí empezar a estudiar sobre el entorno de JavaScript por mi cuenta.",
         "p4": "Actualmente me encuentro buscando mi primer empleo como desarrollador fullstack en el sector.",
         "Prev": "Anterior",
         "Next": "Siguiente",
@@ -29,17 +29,17 @@
         "Database": "Base de datos",
         "Frontend": "Cliente",
         "Backend": "Servidor",
-        "VCS": "Sístema de control de versiones",
+        "VCS": "Sistema de control de versiones",
         "All": "General",
         "M": "MongoDB es un entorno de base de datos que permite trabajar con modelos no relacionales, escritos en formato JSON para trabajar con la información. En concreto, yo trabajo con mongoose en entornos de ExpressJS o NodeJS para conectar con la base de datos principal, esté donde esté.",
         "E": "ExpressJS es un framework de NodeJS que facilita muchísimo crear un servidor desde 0. Tiene una forma genial de trabajar con las rutas y los endpoints de APIs y es lo suficientemente rápido para considerarlo siempre.",
         "R": "React es una librería frontend de JavaScript creada por Facebook. Permite trabajar con aplicaciones de página única (SPA por sus siglas en inglés) gracias a HTML vitaminado basado en creación de componentes conocido como formato JSX. Tiene una comunidad inmensa que da soporte contínuo a la librería y fué mi elección contra otros frameworks como Angular, Svelte o Vue.",
-        "N": "NodeJS fué creado para trabajar con JavaScript en el lado del servidor, permitiendo crear lógica y operaciones como ruteos, servir, escribir y leer archivos y cualquier clases de proceso del lado servidor. Es los cimientos de todas las tecnologías que trabajan con JS en el lado servidor, el 100% de éstas tienen Node en su núcleo de bajo nivel.",
+        "N": "NodeJS fué creado para trabajar con JavaScript en el lado del servidor, permitiendo crear lógica y operaciones como ruteos, servir, escribir y leer archivos y cualquier clases de proceso del lado servidor. Es los cimientos de todas las tecnologías que trabajan con JS en el lado servidor, el 100% de estas tienen Node en su núcleo de bajo nivel.",
         "TS": "TypeScript es un superset para JavaScript desarrollado por Microsoft que permite trabajar con tipado estático para luego inferir esos tipos y restringir el flujo de datos de la aplicación que estés desarollando. Extremadamente útil para proyectos grandes o que involucren a equipos de desarrollo.",
         "NJS": "NextJS es un framework para React que implementa tonalidad de funciones integradas como ruteo, componentes de imagen y, quizás lo más importante, renderizado de componentes del lado servidor por defecto. También facilita muchísimo integrar Tailwind y TypeScript en sus proyectos.",
         "TWD": "TailwindCSS es un framework para CSS, al igual que Bootstrap implementa nombres de clases con reglas CSS ya predefinidas y permite extender o editar esas clases. Quizás un poco más pesado que Bootstrap en cuanto a clases, pero prefiero su método de trabajo y fué la elección que tomé.",
         "SQL": "MySQL es un motor de bases de datos relacionales que permite con Lenguaje de Consultas Estructurado (SQL por sus siglas en inglés) con tablas, uniones, consultas y todas las operaciones de las bases de datos relacionales.",
-        "GIT": "Git es un Sístema de Control de Versiones (VCS por sus siglas en inglés), esto significa que puedes hacer 'push' de tu trabajo a la rama actual o a una nueva cada vez que consideres o consigas algún avance en el desarrollo. De esta forma puedes volver a versiones de tu código que funcionaban y empezar desde ahí. Integrado con GitHub esta herramienta facilita enormemente la vida.",
+        "GIT": "Git es un Sistema de Control de Versiones (VCS por sus siglas en inglés), esto significa que puedes hacer 'push' de tu trabajo a la rama actual o a una nueva cada vez que consideres o consigas algún avance en el desarrollo. De esta forma puedes volver a versiones de tu código que funcionaban y empezar desde ahí. Integrado con GitHub esta herramienta facilita enormemente la vida.",
         "DTST": "Las estructuras de datos son el pilar base de la programación. Saber con qué estructura de datos trabajar según los datos que estás recibiendo definirá el éxito o fracaso del proyecto. Cada estructura de datos nos proporciona varias operaciones, y cada operación consume cierta cantidad de tiempo, así que puedes imaginar lo rápido que escala, no?",
         "ALG": "Me gusta decir que los algoritmos son funciones que resuelven un problema general de una manera específica. Los algoritmos resuelven un rango de problemas que arraiguen en el mismo tipo, así se pueden aplicar en otros entornos y resultarán en la misma escala consumo de tiempo y espacio.",
         "STY": "La Seguridad digital se ha convertido en algo indispensable cuando se trabaja con proyectos de entorno real. Validación de campos en ambos lados del proceso, encapsulación, procesos de autorización y autenticación en cada petición, políticas CORS en servidores y un largo etcétera.",
@@ -56,13 +56,13 @@
                 "title": "Buscar un rango",
                 "description": "Dada una lista de enteros y un entero objetivo, retorna una lista que represente el rango de índices en la lista con valor igual a objetivo.",
                 "type": "Algoritmos",
-                "solution": "Recorrer la lista de izquierda a derecha y viceversa en el mismo bucle, crear una variable con valor [-1, -1] para retornar en caso de que no exista el número objetivo en la lista. En cada iteración verificamos si el la variable de rango en los índices i y j son -1, si lo son verificamos si son iguales al objetivo. Cuando ningún índice de la variable range es -1 retornamos la solución."
+                "solution": "Recorrer la lista de izquierda a derecha y viceversa en el mismo bucle, crear una variable con valor [-1, -1] para retornar en caso de que no exista el número objetivo en la lista. En cada iteración verificamos si la variable de rango en los índices i y j son -1, si lo son verificamos si son iguales al objetivo. Cuando ningún índice de la variable range es -1 retornamos la solución."
             },
             "1": {
                 "title": "Asignación de tareas",
                 "description": "Dado un entero que representa un número de trabajadores y una lista de enteros que representa la duración de tareas a realizar, retorna los índices de la lista de tareas para que la duración máxima de las combinaciones sea la más óptima. Cada trabajador puede realizar dos tareas.",
                 "type": "Algoritmos",
-                "solution": "Copiar la lista de tareas y ordenarla en orden ascendente. Una vez tenemos la estructura de datos ordenada, podemos simplemente emparejar la primera disponible (mínima duración) con la máxima disponible (máxima disponible). Una vez acabado el bucle retornamos la matriz."
+                "solution": "Copiar la lista de tareas y ordenarla en orden ascendente. Una vez tenemos la estructura de datos ordenada, podemos simplemente emparejar la primera disponible (mínima duración) con la máxima disponible (máxima duración). Una vez acabado el bucle retornamos la matriz."
             },
             "2": {
                 "title": "Suma de dos números",
@@ -266,8 +266,8 @@
         "AllTitle": "Todos",
         "NoItemsFound": "No se encuentran proyectos con estos criterios",
         "GenericAlt": "Imagen del proyecto",
-        "ProblemTitle": "The problem",
-        "SolutionTitle": "The solution",
+        "ProblemTitle": "El problema",
+        "SolutionTitle": "La solución",
         "ViewPictures": "Ver fotos",
         "ViewCode": "Ver código",
         "ProjectList": {
