@@ -7,7 +7,6 @@ import { useTranslation } from "react-i18next";
 export default function PresentationSection() {
   const [blinking, setBlinking] = useState("");
   const { t } = useTranslation();
-
   return (
     <>
       <section className="flex flex-col md:flex-row justify-center items-center p-2 m-1 h-[50%] w-[100%]">
