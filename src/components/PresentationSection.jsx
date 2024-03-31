@@ -34,10 +34,10 @@ export default function PresentationSection() {
             className={`rounded-full m-6 pixelGrow`}
           />
           <a
-            href="/resume.png"
+            href="/resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
-            download="Ivan Rodriguez de Antonio.pdf"
+            download="resume.pdf"
           >
             <button
               className={`bg-blue-chill-100 text-blue-chill-600 p-2 hover:bg-blue-chill-800 hover:text-blue-chill-50 rounded-br-lg rounded-tl-lg font-ojuju hover:scale-105`}
